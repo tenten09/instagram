@@ -27,6 +27,8 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'annotate'
+gem 'better_errors'
+gem 'binding_of_caller'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise'
 gem 'hamlit-rails'
