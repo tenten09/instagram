@@ -10,4 +10,16 @@ class User < ApplicationRecord
   validates :email, presence: true
   validates :encrypted_password, presence: true
 
+
+  # def avatar_image
+  #   if profile&.avatar&.attached?
+  #     profile.avatar
+  #   else
+  #     'default-avatar.png'
+  #   end
+  # end
+
+  def display_name
+  end
+
 end
